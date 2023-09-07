@@ -20,12 +20,12 @@ function AboutMe() {
           className="w-64 h-64 rounded-full ml-12 animate-slide-in-right"
         />
       </div>
-      <div className="text-center max-w-screen-lg mt-12 animate-fade-in border-2 border-beige  rounded-full bg-olive bg-opacity-20">
-        <h2 className="text-3xl font-extrabold leading-9 text-white-900 pb-6">
+      <div className="text-center max-w-screen-lg mt-12 animate-fade-in border-2 border-beige rounded-full bg-olive bg-opacity-20 pt-3 pb-3 pl-8 pr-8">
+        <h2 className="text-3xl font-extrabold leading-9 text-white-900 pb-4">
           About Me
         </h2>
         <p className="c text-lg leading-6 text-white-600">
-          Hi, I'm Nicholas Sweet, a Full Stack Developer with a passion for
+          Hey! I'm Nick Sweet, a Full Stack Developer with a passion for
           creating web applications using the MERN stack (MongoDB, Express,
           React, Node.js). I recently graduated from a Full Stack boot camp
           program at UCF, where I honed my skills in both front-end and
