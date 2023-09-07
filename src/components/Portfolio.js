@@ -5,10 +5,13 @@ const projects = [
     title: "SQL Employee Tracker",
     link: "https://github.com/NickSweet1/SQL-Employee-Tracker",
     video: "https://drive.google.com/file/d/1eqmU_czspetV5ywkY922V9E9EqGC2Fod/view",
-    description: "This is one of my first projects using SQL. The idea behind this project is to set up an SQL database and manipulate the data using CRUD (create, remove, update, and delete). This example uses an employee database. Please click one of the links below to get a better look!"
+    description: "This is one of my first projects using SQL. The idea behind this project is to set up an SQL database and manipulate the data using CRUD (create, read, update, and delete). This example uses an employee database. Please click one of the links below to get a better look!"
   },
   {
-    title: "Project 2",
+    title: "Instabook API",
+    link: "https://github.com/NickSweet1/Instabook-API",
+    video: "https://drive.google.com/file/d/1kVegxXUuWvxUN_vmwzz7hLfGGw--PTXT/view",
+    description: "This is my social media site. It creates a database using MongoDb for users and their posts/comments. I use the CRUD method (create, read, update, delete) to update the database. Please take a look at the video for a more detailed walkthrough!"
   },
   {
     title: "Project 3",
