@@ -10,11 +10,6 @@ function App() {
   return (
     <div className="App">
       <PortfolioContainer />
-      {/* <Navbar />
-      <AboutMe /> 
-      <Portfolio />
-      <Contact />
-      <Footer /> */}
     </div>
   );
 }
