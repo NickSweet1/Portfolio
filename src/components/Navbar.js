@@ -8,7 +8,7 @@ function Navbar({ currentPage, handlePageChange }) {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              className="hidden lg:block h-16 w-auto"
+              className="lg:block h-16 w-auto"
               src={process.env.PUBLIC_URL + '/images/nick-sweet-logo.png'}
               alt="Logo"
             />
