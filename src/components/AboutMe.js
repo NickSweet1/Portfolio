@@ -2,20 +2,14 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="bg-olive text-beige h-screen flex flex-col justify-center items-center"
-    // style={{
-    //   backgroundImage: `url('/images/beige_shapes.png')`, // Replace with the path to your image
-    //   backgroundSize: "cover", // Adjust as needed
-    //   backgroundPosition: "center", // Adjust as needed
-    // }}
-    >
+    <section className="bg-olive text-beige h-screen flex flex-col justify-center items-center">
       <div className="flex items-center">
         <div>
           <h1 className="text-8xl font-bold mb-10 animate-slide-in-left">Nick Sweet</h1>
           <p className="text-4xl mb-10 animate-slide-in-left">Full Stack Web Developer</p>
         </div>
         <img
-          src="/images/portfolio_pic.jpg"
+          src={process.env.PUBLIC_URL + '/images/portfolio_pic.jpg'}
           alt="Your Alt Text"
           className="w-64 h-64 rounded-full ml-12 animate-slide-in-right"
         />

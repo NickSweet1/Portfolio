@@ -118,7 +118,7 @@ function Portfolio() {
                 <h2 className="text-4xl text-beige font-semibold mb-6 flex justify-center">
                   Projects
                 </h2>
-                <p className="border border-beige rounded-lg text-beige pt-1 pr-3 pl-4 pb-3 text-center">
+                <p className="border border-beige rounded-lg text-beige pt-1 pr-3 pl-4 pb-3 text-center bg-tan">
                   Welcome to my portfolio, where you can check out some cool
                   projects I tackled during my Full Stack boot camp. These
                   projects reflect different aspects of the course, and if

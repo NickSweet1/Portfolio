@@ -21,7 +21,7 @@ function Contact() {
       <div className="container mx-auto flex flex-col md:flex-row">
         <div className="md:w-1/2 pr-6">
           <img
-            src="/path-to-your-image.jpg" // Replace with image path
+            src="../public/images/beige_shapes.png" // Replace with image path
             alt="Contact Image"
             className="w-full h-auto"
           />
