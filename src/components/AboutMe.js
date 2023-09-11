@@ -37,7 +37,6 @@ function AboutMe() {
           skills I gained in the hospitality industry have proven to be
           valuable assets in my transition to software development.
         </p>
-        {/* Add more about yourself here */}
       </div>
     </section>
   );
