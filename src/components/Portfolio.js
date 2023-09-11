@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faSquareGithub,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faGlobe,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSquareGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
   {
@@ -41,10 +36,19 @@ const projects = [
       "This project holds a special place as one of my earliest creations. It's a password generator that relies on user input to craft a unique password comprising letters, numbers, and symbols. While my design skills have evolved considerably since then, it's a fun journey back to where it all started. Feel free to give it a try and see how it all began!",
   },
   {
-    title: "Project 5",
+    title: "E-commerce Back End",
+    link: "https://github.com/NickSweet1/E-commerce-Back-End-ORM",
+    video:
+      "https://drive.google.com/file/d/1c8e9gAPTgNxNwsqJd8lz8eP8aDP9iQ9g/view",
+    description:
+      "This project leverages a robust database system, affording users the capability to seamlessly interact with three distinct database tables via Insomnia. The system facilitates data viewing, addition, modification, and deletion, exemplifying its versatility as a comprehensive data management solution.",
   },
   {
-    title: "Project 6",
+    title: "Mezcal Employee Portal",
+    sitelink: "https://mezcal-book-580ae53d198b.herokuapp.com",
+    link: "https://github.com/JoshuaVaneps/Mezcal-Book",
+    description:
+      "This employee portal has been meticulously designed to empower restaurant staff with seamless access to a comprehensive database containing detailed information about the diverse range of spirits offered by the establishment. This invaluable resource serves as a pivotal tool, enabling our dedicated team to swiftly access essential training materials. The portal's swift information retrieval capabilities play a pivotal role in enhancing the overall guest experience while concurrently bolstering sales figures.",
   },
 ];
 
@@ -65,7 +69,7 @@ function Portfolio() {
                 <h2 className="text-4xl text-beige font-semibold flex justify-center pb-6">
                   {selectedProject.title}
                 </h2>
-                <div className="border border-beige rounded-lg pt-1 pr-3 pl-3 pb-3">
+                <div className="border border-beige rounded-lg pt-1 pr-3 pl-3 pb-3 bg-tan">
                   <p className="text-beige">{selectedProject.description}</p>
                   <h3 className="text-beige text-lg underline flex justify-center mt-6">
                     <a
@@ -114,11 +118,12 @@ function Portfolio() {
                 <h2 className="text-4xl text-beige font-semibold mb-6 flex justify-center">
                   Projects
                 </h2>
-                <p className="border border-beige rounded-lg text-beige pt-1 pr-3 pl-4 pb-3">
-                  Here, you can find some of the projects I completed during my
-                  Full Stack boot camp. Some of these are focused on one aspect
-                  of the course. Please click on the project title to the right
-                  to see more detailed information.
+                <p className="border border-beige rounded-lg text-beige pt-1 pr-3 pl-4 pb-3 text-center">
+                  Welcome to my portfolio, where you can check out some cool
+                  projects I tackled during my Full Stack boot camp. These
+                  projects reflect different aspects of the course, and if
+                  you're curious for more details, just click on the project
+                  titles to the right!
                 </p>
               </div>
             )}
@@ -128,14 +133,18 @@ function Portfolio() {
             <h1 className="text-4xl text-beige font-semibold mb-6 flex justify-center">
               Recent Works
             </h1>
-            <ul className="border border-beige rounded-lg">
+            <ul 
+            >
               {projects.map((project, index) => (
                 <li key={index} className="mb-4">
                   <h3
                     className="text-xl text-beige font-semibold flex justify-center cursor-pointer p-2"
+                    >
+                    <span className="border border-beige rounded p-2 bg-tan hover:shadow-lg hover:translate-x-0.5 hover:-translate-y-0.5"
                     onClick={() => handleProjectClick(index)}
-                  >
+                    >
                     {project.title}
+                    </span>
                   </h3>
                 </li>
               ))}
