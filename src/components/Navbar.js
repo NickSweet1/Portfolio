@@ -9,7 +9,7 @@ function Navbar({ currentPage, handlePageChange }) {
           <div className="flex-shrink-0 flex items-center">
             <img
               className="hidden lg:block h-16 w-auto"
-              src="/images/resized-logo.png"
+              src="/images/nick-sweet-logo.png"
               alt="Logo"
             />
           </div>
