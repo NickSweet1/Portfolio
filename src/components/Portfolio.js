@@ -60,7 +60,7 @@ function Portfolio() {
   };
 
   return (
-    <section id="portfolio" className="bg-olive py-16">
+    <section id="portfolio" className="background py-16">
       <div className="container mx-auto  flex justify-center">
         <div className="flex flex-col md:flex-row max-w-screen-lg">
           <div className="md:w-1/2 pr-12">

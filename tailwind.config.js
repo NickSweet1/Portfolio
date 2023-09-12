@@ -8,6 +8,7 @@ module.exports = {
         olive: '#829079',
         beige: '#ede6b9',
         tan: '#b9925e',
+        brown: '#8B4513',
       }
     },
   },

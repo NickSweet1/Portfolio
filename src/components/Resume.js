@@ -9,7 +9,7 @@ import { faMartiniGlassCitrus, faHandsHoldingChild, faCode, faGraduationCap, faA
 
 function Resume() {
   return (
-    <div className="bg-olive flex">
+    <div className="background flex">
       <a
       href="/images/resume.docx"
       download  // This attribute specifies that the target will be downloaded when a user clicks on the hyperlink
@@ -17,7 +17,7 @@ function Resume() {
     >
         < FontAwesomeIcon icon={faFileArrowDown} className="fa-2x text-beige pl-5 pt-5"/>
         </a>
-      <VerticalTimeline className="bg-olive">
+      <VerticalTimeline>
       <VerticalTimelineElement
           className="vertical-timeline-element--work text-beige"
           contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "2px 2px 2px rgb(237, 230, 155)"}}

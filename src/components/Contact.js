@@ -17,13 +17,13 @@ function Contact() {
     };
 
   return (
-    <section className="bg-olive py-16">
+    <section className="background py-16">
       <div className="container mx-auto flex flex-col md:flex-row">
-        <div className="md:w-1/2 pr-6">
+        <div className="md:w-1/2 flex justify-center">
           <img
-            src="../public/images/beige_shapes.png" // Replace with image path
+            src={process.env.PUBLIC_URL + '/images/IMG-4884.JPG'} // Replace with image path
             alt="Contact Image"
-            className="w-full h-auto"
+            className="w-200 h-200 rounded-full pl-6"
           />
         </div>
 

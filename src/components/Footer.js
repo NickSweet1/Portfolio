@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 
 function Footer() {
   return (
-    <footer className="bg-olive text-beige text-center py-6">
+    <footer className="bg-tan text-beige text-center py-6">
       <div className="pb-3 flex flex-wrap justify-center items-center">
         <a href="https://github.com/NickSweet1" target="_blank" rel="noopener norefferer">
             <FontAwesomeIcon className="pr-4 text-4xl mx-auto" icon={faGithub} />
