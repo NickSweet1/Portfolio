@@ -3,21 +3,21 @@ import React from "react";
 function AboutMe() {
   return (
     <section className="background text-beige min-h-screen flex flex-col justify-center items-center">
-      <div className="flex items-center">
-        <div>
-          <h1 className="text-8xl font-bold mb-10 animate-slide-in-left">Nick Sweet</h1>
-          <p className="text-4xl mb-10 animate-slide-in-left">Full Stack Web Developer</p>
+      <div className="flex items-center mt-10 sm:mt-0">
+        <div className="center">
+          <h1 className="text-2xl font-bold sm:text-8xl sm:mb-10 animate-slide-in-left">Nick Sweet</h1>
+          <p className="mr-4 sm:text-4xl sm:mb-10 animate-slide-in-left">Full Stack Web Developer</p>
         </div>
         <img
           src={process.env.PUBLIC_URL + '/images/headshot_256.jpg'}
-          alt="Your Alt Text"
-          width="256"
-          height="256"
-          className="rounded-full ml-12 animate-slide-in-right"
+          alt="Headshot Photo"
+          // width="256"
+          // height="256"
+          className="rounded-full w-32 h-32 sm:ml-12 animate-slide-in-right sm:w-64 sm:h-64"
         />
       </div>
-      <div className="text-center max-w-screen-lg mt-12 animate-fade-in border-2 border-beige rounded-full bg-olive bg-opacity-20 pt-3 pb-3 pl-8 pr-8">
-        <h2 className="text-3xl font-extrabold leading-9 text-white-900 pb-4">
+      <div className="text-center max-w-screen-lg mb-10 sm:mb-0 m-3 mt-12 animate-fade-in border-2 border-beige rounded-3xl sm:rounded-full bg-olive bg-opacity-20 pt-3 pb-3 pl-8 pr-8">
+        <h2 className="text-3xl font-extrabold leading-9 text-beige pb-4">
           About Me
         </h2>
         <p className="c text-lg leading-6 text-white-600">

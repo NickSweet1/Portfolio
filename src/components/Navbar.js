@@ -10,13 +10,14 @@ function Navbar({ currentPage, handlePageChange }) {
             <img
               width="256"
               height="256"
+              className="hidden sm:inline-flex"
               src={process.env.PUBLIC_URL + '/images/logo_256.png'}
               alt="Logo"
             />
           </div>
 
           {/* Navigation links */}
-          <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+          <div className="sm:ml-6 sm:flex sm:space-x-8">
             <a
               href="#AboutME"
               onClick={() => handlePageChange('AboutMe')}

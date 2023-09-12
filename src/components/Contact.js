@@ -23,52 +23,52 @@ function Contact() {
           <img
             src={process.env.PUBLIC_URL + '/images/IMG-4884.JPG'} // Replace with image path
             alt="Contact Image"
-            className="rounded-full "
+            className="w-5/6 rounded-full "
           />
         </div>
 
-        <div className="md:w-1/2 pl-6 flex flex-col justify-center items-center">
+        <div className="pt-5 sm:pt-0 md:w-1/2  flex flex-col justify-center items-center">
           <h2 className="text-3xl text-white font-semibold mb-6 flex justify-center">Contact Us</h2>
           <form ref={form} onSubmit={sendEmail}>
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
+                className="w-11/12 sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Name"
                 required
               />
             </div>
 
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <input
                 type="text"
                 id="subject"
                 name="subject"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
+                className="w-11/12 sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Subject"
                 required
               />
             </div>
 
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
+                className="w-11/12 sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Email"
                 required
               />
             </div>
 
-            <div className="mb-4">
+            <div className="mb-4 flex justify-center">
               <textarea
                 id="message"
                 name="message"
                 rows="4"
-                className="w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
+                className="w-11/12 sm:w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Message"
                 required
               ></textarea>
