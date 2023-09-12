@@ -2,16 +2,18 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="background text-beige h-screen flex flex-col justify-center items-center">
+    <section className="background text-beige min-h-screen flex flex-col justify-center items-center">
       <div className="flex items-center">
         <div>
           <h1 className="text-8xl font-bold mb-10 animate-slide-in-left">Nick Sweet</h1>
           <p className="text-4xl mb-10 animate-slide-in-left">Full Stack Web Developer</p>
         </div>
         <img
-          src={process.env.PUBLIC_URL + '/images/portfolio_pic.jpg'}
+          src={process.env.PUBLIC_URL + '/images/headshot_256.jpg'}
           alt="Your Alt Text"
-          className="w-64 h-64 rounded-full ml-12 animate-slide-in-right"
+          width="256"
+          height="256"
+          className="rounded-full ml-12 animate-slide-in-right"
         />
       </div>
       <div className="text-center max-w-screen-lg mt-12 animate-fade-in border-2 border-beige rounded-full bg-olive bg-opacity-20 pt-3 pb-3 pl-8 pr-8">

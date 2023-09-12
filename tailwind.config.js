@@ -9,6 +9,7 @@ module.exports = {
         beige: '#ede6b9',
         tan: '#b9925e',
         brown: '#8B4513',
+        cabbage: '#474F42',
       }
     },
   },

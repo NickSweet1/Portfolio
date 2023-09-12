@@ -23,7 +23,7 @@ function Contact() {
           <img
             src={process.env.PUBLIC_URL + '/images/IMG-4884.JPG'} // Replace with image path
             alt="Contact Image"
-            className="w-200 h-200 rounded-full pl-6"
+            className="rounded-full "
           />
         </div>
 

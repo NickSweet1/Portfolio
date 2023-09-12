@@ -8,8 +8,9 @@ function Navbar({ currentPage, handlePageChange }) {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img
-              className="lg:block h-16 w-auto"
-              src={process.env.PUBLIC_URL + '/images/nick-sweet-logo.png'}
+              width="256"
+              height="256"
+              src={process.env.PUBLIC_URL + '/images/logo_256.png'}
               alt="Logo"
             />
           </div>
@@ -19,28 +20,28 @@ function Navbar({ currentPage, handlePageChange }) {
             <a
               href="#AboutME"
               onClick={() => handlePageChange('AboutMe')}
-              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-cabbage hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               About Me
             </a>
             <a
               href="#Portfolio"
               onClick={() => handlePageChange('Portfolio')}
-              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-cabbage hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Portfolio
             </a>
             <a
               href="#Resume"
               onClick={() => handlePageChange('Resume')}
-              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-cabbage hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Resume
             </a>
             <a
               href="#Contact"
               onClick={() => handlePageChange('Contact')}
-              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-cabbage hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
             </a>
