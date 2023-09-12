@@ -16,7 +16,7 @@ function AboutMe() {
           className="rounded-full w-32 h-32 sm:ml-12 animate-slide-in-right sm:w-64 sm:h-64"
         />
       </div>
-      <div className="text-center max-w-screen-lg mb-10 sm:mb-0 m-3 mt-12 animate-fade-in border-2 border-beige rounded-3xl sm:rounded-full bg-olive bg-opacity-20 pt-3 pb-3 pl-8 pr-8">
+      <div className="text-center max-w-screen-lg mb-10 sm:mb-0 m-3 mt-12 animate-fade-in border-2 border-beige rounded-3xl sm:rounded-full bg-cabbage bg-opacity-70 pt-3 pb-3 pl-8 pr-8">
         <h2 className="text-3xl font-extrabold leading-9 text-beige pb-4">
           About Me
         </h2>
