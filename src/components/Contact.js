@@ -27,7 +27,7 @@ function Contact() {
           />
         </div>
 
-        <div className="md:w-1/2 pl-6">
+        <div className="md:w-1/2 pl-6 flex flex-col justify-center items-center">
           <h2 className="text-3xl text-white font-semibold mb-6 flex justify-center">Contact Us</h2>
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-4">
@@ -35,7 +35,7 @@ function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Name"
                 required
               />
@@ -46,7 +46,7 @@ function Contact() {
                 type="text"
                 id="subject"
                 name="subject"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Subject"
                 required
               />
@@ -57,7 +57,7 @@ function Contact() {
                 type="email"
                 id="email"
                 name="email"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Email"
                 required
               />
@@ -68,7 +68,7 @@ function Contact() {
                 id="message"
                 name="message"
                 rows="4"
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                className="w-96 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-tan"
                 placeholder="Your Message"
                 required
               ></textarea>

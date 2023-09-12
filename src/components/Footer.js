@@ -8,13 +8,13 @@ function Footer() {
     <footer className="bg-tan text-beige text-center py-6">
       <div className="pb-3 flex flex-wrap justify-center items-center">
         <a href="https://github.com/NickSweet1" target="_blank" rel="noopener norefferer">
-            <FontAwesomeIcon className="pr-4 text-4xl mx-auto" icon={faGithub} />
+            <FontAwesomeIcon className="hover:bg-olive hover:text-beige p-2 text-5xl mx-auto" icon={faGithub} />
         </a>
         <a href="https://www.linkedin.com/in/nicholas-sweet1/" target="_blank" rel="noopener norefferer">
-        <FontAwesomeIcon className="pr-4 text-4xl mx-auto" icon={faLinkedin} />
+        <FontAwesomeIcon className="hover:bg-olive hover:text-beige p-2 text-5xl mx-auto" icon={faLinkedin} />
         </a>
         <a href="https://leetcode.com/nicksweetj/" target="_blank" rel="noopener norefferer">
-        <Icon icon="simple-icons:leetcode" className="pr-4 text-5xl mx-auto"/>
+        <Icon icon="simple-icons:leetcode" className="hover:bg-olive hover:text-beige p-1 text-5xl mx-auto"/>
         </a>
       </div>
       <div>

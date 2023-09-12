@@ -19,28 +19,28 @@ function Navbar({ currentPage, handlePageChange }) {
             <a
               href="#AboutME"
               onClick={() => handlePageChange('AboutMe')}
-              className="text-beige hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               About Me
             </a>
             <a
               href="#Portfolio"
               onClick={() => handlePageChange('Portfolio')}
-              className="text-beige hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Portfolio
             </a>
             <a
               href="#Resume"
               onClick={() => handlePageChange('Resume')}
-              className="text-beige hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Resume
             </a>
             <a
               href="#Contact"
               onClick={() => handlePageChange('Contact')}
-              className="text-beige hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              className="text-beige hover:bg-olive hover:text-beige px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
             </a>
