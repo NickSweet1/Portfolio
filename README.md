@@ -27,7 +27,7 @@
   For any questions or inqueries please reach me at nicksweetj@gmail.com or view my projects at [Github Page](github.com/NickSweet1/)! 
 
   ## Contributing<a name="contributing"></a>
-  As this is a portfolio, no contributions are being accepted for this project. If you would like to provide any feedback, please reach out to me in the email provided below. 
+  As this is a portfolio, no contributions are being accepted for this project. If you would like to provide any feedback, please reach out to me in the email provided above. 
 
   ## Authors<a name="authors"></a>
   Nick sweet 
