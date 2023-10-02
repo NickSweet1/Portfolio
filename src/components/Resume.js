@@ -11,7 +11,7 @@ function Resume() {
   return (
     <div className="background flex">
       <a
-      href="/images/resume.docx"
+      href="/images/Nick_Sweet_Resume.pdf"
       download  // This attribute specifies that the target will be downloaded when a user clicks on the hyperlink
       className="fa-2x text-white flex"
     >
