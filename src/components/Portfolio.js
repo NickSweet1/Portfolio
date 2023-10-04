@@ -5,11 +5,19 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
   {
+    title: "Stasio's Italian Deli",
+    link: "https://github.com/NickSweet1/Stasios",
+    sitelink:
+      "https://stasios-7fcd485311cd.herokuapp.com/",
+    description:
+      "This website has a sleek design and covers everything about the menu, hours, and history. It's powered by a GraphQL database for that extra menu flair, and the manager can log in to make menu tweaks using CRUD (Create, Read, Update, Delete) operations.",
+  },
+  {
     title: "Mezcal Employee Portal",
     sitelink: "https://mezcal-book-580ae53d198b.herokuapp.com",
     link: "https://github.com/JoshuaVaneps/Mezcal-Book",
     description:
-      "This employee portal has been meticulously designed to empower restaurant staff with seamless access to a comprehensive database containing detailed information about the diverse range of spirits offered by the establishment. This invaluable resource serves as a pivotal tool, enabling our dedicated team to swiftly access essential training materials. The portal's swift information retrieval capabilities play a pivotal role in enhancing the overall guest experience while concurrently bolstering sales figures. Please feel free to make an account to view the databases of tequila and mezcal!",
+      "Our employee portal, powered by SQL databases, is designed to empower restaurant staff with seamless access to comprehensive information about our diverse range of spirits. It's a valuable resource for training, enhancing the guest experience, and boosting sales. Feel free to create an account to explore our tequila and mezcal databases!",
   },
   {
     title: "SQL Employee Tracker",
@@ -41,14 +49,6 @@ const projects = [
     sitelink: "https://nicksweet1.github.io/Styled-Password-Generator/",
     description:
       "This project holds a special place as one of my earliest creations. It's a password generator that relies on user input to craft a unique password comprising letters, numbers, and symbols. While my design skills have evolved considerably since then, it's a fun journey back to where it all started. Feel free to give it a try and see how it all began!",
-  },
-  {
-    title: "E-commerce Back End",
-    link: "https://github.com/NickSweet1/E-commerce-Back-End-ORM",
-    video:
-      "https://drive.google.com/file/d/1c8e9gAPTgNxNwsqJd8lz8eP8aDP9iQ9g/view",
-    description:
-      "This project leverages a robust database system, affording users the capability to seamlessly interact with three distinct database tables via Insomnia. The system facilitates data viewing, addition, modification, and deletion, exemplifying its versatility as a comprehensive data management solution.",
   },
 ];
 
