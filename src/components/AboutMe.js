@@ -24,7 +24,7 @@ function AboutMe() {
           Hey! I'm Nick Sweet, a Full Stack Developer with a passion for
           creating web applications using the MERN stack (MongoDB, Express,
           React, Node.js). I recently graduated from a Full Stack boot camp
-          program at UCF, where I honed my skills in both front-end and
+          program at the University of Central Florida, where I honed my skills in both front-end and
           back-end development.
         </p>
         <p className="mt-4 text-lg leading-6 text-white-600">
