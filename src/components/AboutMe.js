@@ -11,8 +11,6 @@ function AboutMe() {
         <img
           src={process.env.PUBLIC_URL + '/images/headshot_256.jpg'}
           alt="Headshot Photo"
-          // width="256"
-          // height="256"
           className="rounded-full w-32 h-32 sm:ml-12 animate-slide-in-right sm:w-64 sm:h-64"
         />
       </div>

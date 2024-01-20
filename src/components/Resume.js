@@ -10,13 +10,7 @@ import { faMartiniGlassCitrus, faHandsHoldingChild, faCode, faGraduationCap, faA
 function Resume() {
   return (
     <div className="background flex">
-      <a
-      href="/images/Nick_Sweet_Resume.pdf"
-      download  // This attribute specifies that the target will be downloaded when a user clicks on the hyperlink
-      className="fa-2x text-white flex"
-    >
-        < FontAwesomeIcon icon={faFileArrowDown} className="fa-1x sm:fa-2x text-beige pl-5 pr-5 pt-5"/>
-        </a>
+      <div style={{ position: "relative" }} className="mx-auto">
       <VerticalTimeline>
       <VerticalTimelineElement
           className="vertical-timeline-element--work text-beige pr-3"
@@ -33,7 +27,7 @@ function Resume() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-beige pr-3"
-          contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "2px 2px 2px rgb(237, 230, 155)"}}
+          contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "-2px 2px 2px rgb(237, 230, 155)"}}
           date="2017 - Present"
           iconStyle={{ background: "#b9925e", color: "#fff"}}
           icon={<FontAwesomeIcon icon={faMartiniGlassCitrus} />}
@@ -59,7 +53,7 @@ function Resume() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work text-beige pr-3"
-          contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "2px 2px 2px rgb(237, 230, 155)"}}
+          contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "-2px 2px 2px rgb(237, 230, 155)"}}
           date="2012 - 2017"
           iconStyle={{ background: "#b9925e", color: "#fff"}}
           icon={<FontAwesomeIcon icon={faGraduationCap} />}
@@ -75,6 +69,14 @@ function Resume() {
           icon={<FontAwesomeIcon icon={faArrowUp} />}
         />
       </VerticalTimeline>
+      <a
+      href="/images/Nick_Sweet_Resume.pdf"
+      download
+      className="fa-2x text-white absolute top-0 right-0 p-4"
+    >
+        < FontAwesomeIcon icon={faFileArrowDown} className="fa-1x sm:fa-2x text-beige pl-5 pr-5 pt-5"/>
+        </a>
+    </div>
     </div>
   );
 }
