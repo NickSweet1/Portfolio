@@ -31,7 +31,7 @@
   As this is a portfolio, no contributions are being accepted for this project. If you would like to provide any feedback, please reach out to me in the email provided above. 
 
   ## Authors<a name="authors"></a>
-  Nick sweet 
+  Nick Sweet 
 
   ## License<a name="license"></a>
   This project is licensed under [MIT](https://opensource.org/licenses/MIT).
