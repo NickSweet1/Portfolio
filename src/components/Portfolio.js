@@ -19,7 +19,7 @@ function Portfolio() {
             Welcome to my portfolio, where you can check out some cool projects
             I tackled during my Full Stack boot camp. These projects reflect
             different aspects of the course, and if you're curious for more
-            details, just click on the project titles to the right!
+            details, just click on the icons below each project!
           </p>
         </div>
       </div>

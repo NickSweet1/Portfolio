@@ -33,9 +33,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/> 
-            {/* <div style={{minHeight: "80vh"}}> */}
             {renderPage()}
-            {/* </div> */}
             <Footer/>
         </div>
     )

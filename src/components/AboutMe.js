@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="background text-beige min-h-screen flex flex-col justify-center items-center">
+    <section className="background text-beige min-h-screen flex flex-col justify-center items-center pb-12 pt-12">
       <div className="flex items-center mt-10 sm:mt-0">
         <div className="center">
           <h1 className="text-2xl font-bold sm:text-8xl sm:mb-10 animate-slide-in-left">Nick Sweet</h1>
