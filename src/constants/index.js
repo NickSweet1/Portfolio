@@ -5,7 +5,7 @@ export const projects = [
       sitelink:
         "https://stasios-7fcd485311cd.herokuapp.com/",
       description:
-        "This website has a sleek design and covers everything about the menu, hours, and history. It's powered by a GraphQL database for that extra menu flair, and the manager can log in to make menu tweaks using CRUD (Create, Read, Update, Delete) operations.",
+        "Presenting a sleek website encompassing menu details, hours, and history. Enhanced by a GraphQL database for a dynamic menu experience. The manager can log in, utilizing CRUD operations for seamless menu tweaks, ensuring real-time updates and a user-friendly interface.",
     },
     {
       title: "Mezcal Employee Portal",
@@ -14,6 +14,18 @@ export const projects = [
       description:
         "Our employee portal, powered by SQL databases, is designed to empower restaurant staff with seamless access to comprehensive information about our diverse range of spirits. It's a valuable resource for training, enhancing the guest experience, and boosting sales. Feel free to create an account to explore our tequila and mezcal databases!",
     },
+    {
+      title: "Contracting Website",
+      link: "https://github.com/WillZealot/LarryHandyMan",
+      sitelink: "https://larry-contracting.vercel.app/",
+      description: "Presenting a meticulously designed website for a contracting company. Leveraging React, Radix UI, and Tailwind, we achieved a visually stunning design. Integrated emailjs services facilitate seamless customer inquiries, fostering meaningful connections. This project exemplifies the fusion of modern design and innovative technologies, offering an exceptional user experience while effectively meeting business needs."
+    },
+    // {
+    //   title: "Youtube Clone",
+    //   link: "https://github.com/NickSweet1/youtube_clone",
+    //   sitelink: "https://youtube-video-clone.vercel.app/",
+    //   description: "Presenting my YouTube clone, crafted with React and Material UI, showcasing API expertise using Rapid API's YouTube v3 API. Through seamless API calls, I dynamically pull and render YouTube data on the website, demonstrating a blend of frontend skills and API integration."
+    // },
     {
       title: "SQL Employee Tracker",
       link: "https://github.com/NickSweet1/SQL-Employee-Tracker",
@@ -28,7 +40,7 @@ export const projects = [
       video:
         "https://drive.google.com/file/d/1kVegxXUuWvxUN_vmwzz7hLfGGw--PTXT/view",
       description:
-        "Welcome to my social media platform. It's like my little corner of the internet where users can connect, share posts, and chat. I've set up MongoDB to store user profiles, posts, and comments, and I've made it super easy to interact with the database using CRUD operations (Create, Read, Update, Delete). Although it's not a fully functioning site just yet, I've got the backend all set up and working seamlessly! If you'd like to see it in action, check out the video walkthrough—I'd love to show you around!",
+        "Explore my social platform—a space for seamless connection, sharing, and chatting. The backend, powered by MongoDB, effortlessly manages user profiles, posts, and comments with intuitive CRUD operations. Dive into the walkthrough video for an in-depth tour of the functionality!",
     },
     {
       title: "Custom ReadMe Generator",
@@ -37,12 +49,5 @@ export const projects = [
         "https://drive.google.com/file/d/1czSNL5Fw69sBzLzyxZEyvOw_dRGRyCpj/view",
       description:
         "This app was a game-changer during my bootcamp. It helps users create neat README files in Markdown format. You enter your details, and it does the rest, giving you a polished ReadMe.md file with a table of contents, badges, links, and more. It's like having a helpful documentation assistant!",
-    },
-    {
-      title: "Styled Password Generator",
-      link: "https://github.com/NickSweet1/Styled-Password-Generator",
-      sitelink: "https://nicksweet1.github.io/Styled-Password-Generator/",
-      description:
-        "This project holds a special place as one of my earliest creations. It's a password generator that relies on user input to craft a unique password comprising letters, numbers, and symbols. While my design skills have evolved considerably since then, it's a fun journey back to where it all started. Feel free to give it a try and see how it all began!",
     },
   ];
