@@ -29,7 +29,7 @@ function AboutMe() {
           My journey into web development began after years of working in bar
           management at a restaurant. The problem-solving and multitasking
           skills I gained in the hospitality industry have proven to be
-          valuable assets in my transition to software development.
+          valuable assets in my transition to software development. I've tackled various projects since starting this journey and am eager to embrace new challenges ahead!
         </p>
       </div>
     </section>

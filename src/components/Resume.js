@@ -15,6 +15,19 @@ function Resume() {
       <VerticalTimelineElement
           className="vertical-timeline-element--work text-beige pr-3"
           contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "2px 2px 2px rgb(237, 230, 155)"}}
+          date="February 2024 - Present"
+          iconStyle={{ background: "#b9925e", color: "#fff"}}
+          icon={<FontAwesomeIcon icon={faCode} />}
+        >
+          <h3 className="vertical-timeline-element-title text-white">Full-Stack Web Developer</h3>
+          <h4 className="vertical-timeline-element-subtitle text-white">
+            Ambit, Inc
+          </h4>
+          <p>As a full-stack web developer, I built a sophisticated application using Next.js that enables medical professionals to efficiently update and manage a critical database. This streamlined application not only organized essential information but also facilitated another platform where doctors could access data on mutations and diseases, enhancing their ability to use our client’s product to better support their patients.</p>
+        </VerticalTimelineElement>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work text-beige pr-3"
+          contentStyle={{ background: "#b9925e", color: "#ede69b", boxShadow: "2px 2px 2px rgb(237, 230, 155)"}}
           date="March 2023 - October 2023"
           iconStyle={{ background: "#b9925e", color: "#fff"}}
           icon={<FontAwesomeIcon icon={faCode} />}
@@ -70,7 +83,7 @@ function Resume() {
         />
       </VerticalTimeline>
       <a
-      href="/images/Nick_Sweet_Resume.pdf"
+      href="/images/Nicholas_Sweet_Resume.pdf"
       download
       className="fa-2x text-white absolute top-0 right-0 p-4"
     >
